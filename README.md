@@ -1,0 +1,38 @@
+# Azure from Zero: Photo Notes
+
+The code for the **Azure** video course. One small app, Photo Notes (notes that can carry photos), grows on an Azure
+free account: a budget and alerts, Entra ID and RBAC, the Azure CLI, a virtual machine, its own virtual network, storage,
+App Service and Static Web Apps, Functions, free databases, containers, monitoring, Key Vault and policy, and finally
+Bicep with GitHub Actions.
+
+The root of this repository is the project as it stands after the latest finished chapter. Each chapter's finished
+project is in [`chapters/`](chapters). Templates use placeholders such as `EMAIL`, `START` and `SUFFIX`; the videos
+fill them in with `sed` into a `build/` folder that git ignores, so no account details are ever committed.
+
+Everything runs in one region, `swedencentral`. Sign in with `az login` (Azure CLI); no keys are stored in the project.
+Each chapter creates its resources in its own resource group and deletes it at the end, so follow along and clean up
+the same way.
+
+| # | Chapter | Folder |
+|---|---------|--------|
+| 1 | Your Free Azure Account, Safely | [chapters/01-your-free-azure-account-safely](chapters/01-your-free-azure-account-safely) |
+| 2 | Identity: Entra ID, RBAC and Managed Identities | coming soon |
+| 3 | The Azure CLI and Cloud Shell | coming soon |
+| 4 | Virtual Machines: Your First Server | coming soon |
+| 5 | Virtual Networks: Private and Connected | coming soon |
+| 6 | Storage Accounts: Blobs, Files, Queues and Tables | coming soon |
+| 7 | Host a Web App: App Service and Static Web Apps | coming soon |
+| 8 | Serverless with Azure Functions | coming soon |
+| 9 | Databases: Azure SQL and Cosmos DB for Free | coming soon |
+| 10 | Containers: Container Registry and Container Apps | coming soon |
+| 11 | Monitoring: Azure Monitor, Log Analytics and Application Insights | coming soon |
+| 12 | Security: Key Vault, Azure Policy and Defender | coming soon |
+| 13 | Infrastructure as Code and CI/CD: Bicep and GitHub Actions | coming soon |
+
+## Versions
+
+Azure CLI 2.92.0, Python 3.12 locally.
+
+## License
+
+MIT
