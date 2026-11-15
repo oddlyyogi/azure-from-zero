@@ -16,8 +16,8 @@ the same way.
 | # | Chapter | Folder |
 |---|---------|--------|
 | 1 | Your Free Azure Account, Safely | [chapters/01-your-free-azure-account-safely](chapters/01-your-free-azure-account-safely) |
-| 2 | Identity: Entra ID, RBAC and Managed Identities | coming soon |
-| 3 | The Azure CLI and Cloud Shell | coming soon |
+| 2 | Identity: Entra ID, RBAC and Managed Identities | [chapters/02-identity-entra-id-rbac-and-managed-identities](chapters/02-identity-entra-id-rbac-and-managed-identities) |
+| 3 | The Azure CLI and Cloud Shell | [chapters/03-the-azure-cli-and-cloud-shell](chapters/03-the-azure-cli-and-cloud-shell) |
 | 4 | Virtual Machines: Your First Server | coming soon |
 | 5 | Virtual Networks: Private and Connected | coming soon |
 | 6 | Storage Accounts: Blobs, Files, Queues and Tables | coming soon |
