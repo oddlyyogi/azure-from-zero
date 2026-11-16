@@ -26,7 +26,7 @@ the same way.
 | 9 | Databases: Azure SQL and Cosmos DB for Free | [chapters/09-databases-azure-sql-and-cosmos-db-for-free](chapters/09-databases-azure-sql-and-cosmos-db-for-free) |
 | 10 | Containers: Container Registry and Container Apps | coming soon |
 | 11 | Monitoring: Azure Monitor, Log Analytics and Application Insights | coming soon |
-| 12 | Security: Key Vault, Azure Policy and Defender | coming soon |
+| 12 | Security: Key Vault, Azure Policy and Defender | [chapters/12-security-key-vault-azure-policy-and-defender](chapters/12-security-key-vault-azure-policy-and-defender) |
 | 13 | Infrastructure as Code and CI/CD: Bicep and GitHub Actions | coming soon |
 
 ## Versions
