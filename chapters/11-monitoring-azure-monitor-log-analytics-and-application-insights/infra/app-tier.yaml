@@ -1,0 +1,8 @@
+#cloud-config
+write_files:
+  - path: /srv/app/index.html
+    content: |
+      <h1>Photo Notes app tier</h1>
+      <p>Answering from the private subnet.</p>
+runcmd:
+  - [sh, -c, 'cd /srv/app && nohup python3 -m http.server 8080 >/var/log/app.log 2>&1 &']
