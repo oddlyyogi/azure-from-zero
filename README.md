@@ -18,15 +18,15 @@ the same way.
 | 1 | Your Free Azure Account, Safely | [chapters/01-your-free-azure-account-safely](chapters/01-your-free-azure-account-safely) |
 | 2 | Identity: Entra ID, RBAC and Managed Identities | [chapters/02-identity-entra-id-rbac-and-managed-identities](chapters/02-identity-entra-id-rbac-and-managed-identities) |
 | 3 | The Azure CLI and Cloud Shell | [chapters/03-the-azure-cli-and-cloud-shell](chapters/03-the-azure-cli-and-cloud-shell) |
-| 4 | Virtual Machines: Your First Server | coming soon |
-| 5 | Virtual Networks: Private and Connected | coming soon |
+| 4 | Virtual Machines: Your First Server | [chapters/04-virtual-machines-your-first-server](chapters/04-virtual-machines-your-first-server) |
+| 5 | Virtual Networks: Private and Connected | [chapters/05-virtual-networks-private-and-connected](chapters/05-virtual-networks-private-and-connected) |
 | 6 | Storage Accounts: Blobs, Files, Queues and Tables | coming soon |
 | 7 | Host a Web App: App Service and Static Web Apps | coming soon |
 | 8 | Serverless with Azure Functions | coming soon |
 | 9 | Databases: Azure SQL and Cosmos DB for Free | coming soon |
-| 10 | Monitoring: Azure Monitor, Log Analytics and Application Insights | coming soon |
-| 11 | Security: Key Vault, Azure Policy and Defender | coming soon |
-| 12 | Containers: Container Registry and Container Apps | coming soon |
+| 10 | Containers: Container Registry and Container Apps | coming soon |
+| 11 | Monitoring: Azure Monitor, Log Analytics and Application Insights | coming soon |
+| 12 | Security: Key Vault, Azure Policy and Defender | coming soon |
 | 13 | Infrastructure as Code and CI/CD: Bicep and GitHub Actions | coming soon |
 
 ## Versions
