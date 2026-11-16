@@ -1,0 +1,18 @@
+{
+  "properties": {
+    "category": "Cost",
+    "amount": 10,
+    "timeGrain": "Monthly",
+    "timePeriod": { "startDate": "START" },
+    "notifications": {
+      "actual-50": { "enabled": true, "operator": "GreaterThan", "threshold": 50,
+        "thresholdType": "Actual", "contactEmails": ["EMAIL"] },
+      "actual-80": { "enabled": true, "operator": "GreaterThan", "threshold": 80,
+        "thresholdType": "Actual", "contactEmails": ["EMAIL"] },
+      "actual-100": { "enabled": true, "operator": "GreaterThan", "threshold": 100,
+        "thresholdType": "Actual", "contactEmails": ["EMAIL"] },
+      "forecast-100": { "enabled": true, "operator": "GreaterThan", "threshold": 100,
+        "thresholdType": "Forecasted", "contactEmails": ["EMAIL"] }
+    }
+  }
+}

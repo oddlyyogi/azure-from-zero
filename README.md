@@ -20,10 +20,10 @@ the same way.
 | 3 | The Azure CLI and Cloud Shell | [chapters/03-the-azure-cli-and-cloud-shell](chapters/03-the-azure-cli-and-cloud-shell) |
 | 4 | Virtual Machines: Your First Server | [chapters/04-virtual-machines-your-first-server](chapters/04-virtual-machines-your-first-server) |
 | 5 | Virtual Networks: Private and Connected | [chapters/05-virtual-networks-private-and-connected](chapters/05-virtual-networks-private-and-connected) |
-| 6 | Storage Accounts: Blobs, Files, Queues and Tables | coming soon |
+| 6 | Storage Accounts: Blobs, Files, Queues and Tables | [chapters/06-storage-accounts-blobs-files-queues-and-tables](chapters/06-storage-accounts-blobs-files-queues-and-tables) |
 | 7 | Host a Web App: App Service and Static Web Apps | coming soon |
 | 8 | Serverless with Azure Functions | coming soon |
-| 9 | Databases: Azure SQL and Cosmos DB for Free | coming soon |
+| 9 | Databases: Azure SQL and Cosmos DB for Free | [chapters/09-databases-azure-sql-and-cosmos-db-for-free](chapters/09-databases-azure-sql-and-cosmos-db-for-free) |
 | 10 | Containers: Container Registry and Container Apps | coming soon |
 | 11 | Monitoring: Azure Monitor, Log Analytics and Application Insights | coming soon |
 | 12 | Security: Key Vault, Azure Policy and Defender | coming soon |
