@@ -1,0 +1,19 @@
+{
+  "rules": [
+    {
+      "name": "age-photos",
+      "enabled": true,
+      "type": "Lifecycle",
+      "definition": {
+        "filters": { "blobTypes": ["blockBlob"], "prefixMatch": ["photos/"] },
+        "actions": {
+          "baseBlob": {
+            "tierToCool": { "daysAfterModificationGreaterThan": 30 },
+            "delete": { "daysAfterModificationGreaterThan": 365 }
+          },
+          "version": { "delete": { "daysAfterCreationGreaterThan": 90 } }
+        }
+      }
+    }
+  ]
+}
