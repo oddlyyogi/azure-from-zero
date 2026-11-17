@@ -22,7 +22,7 @@ the same way.
 | 5 | Virtual Networks: Private and Connected | [chapters/05-virtual-networks-private-and-connected](chapters/05-virtual-networks-private-and-connected) |
 | 6 | Storage Accounts: Blobs, Files, Queues and Tables | [chapters/06-storage-accounts-blobs-files-queues-and-tables](chapters/06-storage-accounts-blobs-files-queues-and-tables) |
 | 7 | Host a Web App: App Service and Static Web Apps | [chapters/07-host-a-web-app-app-service-and-static-web-apps](chapters/07-host-a-web-app-app-service-and-static-web-apps) |
-| 8 | Serverless with Azure Functions | coming soon |
+| 8 | Serverless with Azure Functions | [chapters/08-serverless-with-azure-functions](chapters/08-serverless-with-azure-functions) |
 | 9 | Databases: Azure SQL and Cosmos DB for Free | [chapters/09-databases-azure-sql-and-cosmos-db-for-free](chapters/09-databases-azure-sql-and-cosmos-db-for-free) |
 | 10 | Containers: Container Registry and Container Apps | [chapters/10-containers-container-registry-and-container-apps](chapters/10-containers-container-registry-and-container-apps) |
 | 11 | Monitoring: Azure Monitor, Log Analytics and Application Insights | [chapters/11-monitoring-azure-monitor-log-analytics-and-application-insights](chapters/11-monitoring-azure-monitor-log-analytics-and-application-insights) |
