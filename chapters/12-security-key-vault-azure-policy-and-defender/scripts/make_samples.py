@@ -18,7 +18,10 @@ def png(width, height, rgb):
 
 out = Path("samples/photos")
 out.mkdir(parents=True, exist_ok=True)
-colours = {"harbour": (40, 90, 160), "beach": (230, 200, 120), "market": (190, 60, 50)}
-for name, rgb in colours.items():
-    (out / f"{name}.png").write_bytes(png(320, 240, rgb))
+photos = {"harbour": (320, 240, (40, 90, 160)),
+          "beach": (400, 300, (230, 200, 120)),
+          "market": (240, 180, (190, 60, 50))}
+
+for name, (w, h, rgb) in photos.items():
+    (out / f"{name}.png").write_bytes(png(w, h, rgb))
     print(name, (out / f"{name}.png").stat().st_size, "bytes")

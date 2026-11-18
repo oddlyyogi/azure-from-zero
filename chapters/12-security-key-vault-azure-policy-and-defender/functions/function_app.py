@@ -27,6 +27,8 @@ def notes(req: func.HttpRequest, rows: str, out: func.Out[str]) -> func.HttpResp
 @app.table_output(arg_name="meta", table_name="photometa", connection="AzureWebJobsStorage")
 def photo_job(msg: func.QueueMessage, meta: func.Out[str]) -> None:
     photo = msg.get_body().decode()
+    if not photo.endswith(".png"):
+        raise ValueError(f"not a photo: {photo}")
     logging.info("photo job for %s", photo)
     meta.set(json.dumps({"PartitionKey": "photos", "RowKey": photo,
                          "processed": datetime.datetime.now(datetime.UTC).isoformat()}))
